@@ -1,0 +1,6 @@
+<h1>Top Posts on r/aww </h1>
+<div class="post-container">
+    <div *ngFor="let p of postList?.data.children">
+        <app-post [postData]="p"></app-post>
+    </div>
+</div>
